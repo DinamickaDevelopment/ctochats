@@ -1,0 +1,30 @@
+﻿body {
+margin:0;
+padding:0;
+background-color:#122D3D;
+}
+
+.container {
+ 
+    display:flex;
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;   
+    padding: 0 15px;
+    height: 100vh;
+    
+   }
+
+.container .logo {
+ max-height:99px;
+ max-width:477px;
+ width:100%;
+}
+
+.container .text {
+  font: 16px 'Open Sans' ; 
+  color:white;
+  max-width:700px;
+  text-align:center;
+  margin-top:15px;
+}
